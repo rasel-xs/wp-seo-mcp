@@ -1,0 +1,19 @@
+{
+  "name": "wp-seo-mcp",
+  "version": "1.0.0",
+  "description": "WordPress SEO FAQ Schema MCP Server — fetches posts, detects missing FAQ schema, and pushes generated schema via SEOPress meta fields.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx ts-node --esm src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0"
+  }
+}
